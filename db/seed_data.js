@@ -20,7 +20,7 @@ db.properties.insertMany(
     price: 60,
     houses: 0,
     owner: "",
-    rent: [],
+    rent: [2,4,10,30,90,160,250],
     other_properties: [3],
     row: 1
   },
@@ -42,7 +42,7 @@ db.properties.insertMany(
     price: 60,
     houses: 0,
     owner: "1",
-    rent: [],
+    rent: [4,8,20,60,180,320,450],
     other_properties: [1],
     row: 1
   },
@@ -64,7 +64,7 @@ db.properties.insertMany(
     price: 200,
     houses: 0,
     owner: "0",
-    rent: [50,100,150,200],
+    rent: [25,50,100,200],
     other_properties: [15,25,35],
     row: 1
   },
@@ -75,7 +75,7 @@ db.properties.insertMany(
     price: 100,
     houses: 0,
     owner: "0",
-    rent: [],
+    rent: [6,12,30,90,270,400,550],
     other_properties: [8,9],
     row: 1
   },
@@ -97,7 +97,7 @@ db.properties.insertMany(
     price: 100,
     houses: 0,
     owner: "1",
-    rent: [],
+    rent: [6,12,30,90,270,400,550],
     other_properties: [6,9],
     row: 1
   },
@@ -108,7 +108,7 @@ db.properties.insertMany(
     price: 120,
     houses: 0,
     owner: "",
-    rent: [],
+    rent: [8,16,40,100,300,450,600],
     other_properties: [6,8],
     row: 1
   },
@@ -130,7 +130,7 @@ db.properties.insertMany(
     price: 140,
     houses: 0,
     owner: "",
-    rent: [],
+    rent: [10,20,50,150,450,625,750],
     other_properties: [13,14],
     row: 2
   },
@@ -141,7 +141,7 @@ db.properties.insertMany(
     price: 150,
     houses: 0,
     owner: "",
-    rent: [],
+    rent: [4,10],
     other_properties: [28],
     row: 2
   },
@@ -152,7 +152,7 @@ db.properties.insertMany(
     price: 140,
     houses: 0,
     owner: "",
-    rent: [],
+    rent: [10,20,50,150,450,625,750],
     other_properties: [11,14],
     row: 2
   },
@@ -163,7 +163,7 @@ db.properties.insertMany(
     price: 160,
     houses: 0,
     owner: "",
-    rent: [],
+    rent: [12,24,60,180,500,700,900],
     other_properties: [11,13],
     row: 2
   },
@@ -174,7 +174,7 @@ db.properties.insertMany(
     price: 200,
     houses: 0,
     owner: "",
-    rent: [50,100,150,200],
+    rent: [25,50,100,200],
     other_properties: [5,25,35],
     row: 2
   },
@@ -185,7 +185,7 @@ db.properties.insertMany(
     price: 180,
     houses: 0,
     owner: "",
-    rent: [],
+    rent: [14,28,70,200,550,750,950],
     other_properties: [18,19],
     row: 2
   },
@@ -207,7 +207,7 @@ db.properties.insertMany(
     price: 180,
     houses: 0,
     owner: "",
-    rent: [],
+    rent: [14,28,70,200,550,750,950],
     other_properties: [16,19],
     row: 2
   },
@@ -218,7 +218,7 @@ db.properties.insertMany(
     price: 200,
     houses: 0,
     owner: "",
-    rent: [],
+    rent: [16,32,80,220,600,800,1000],
     other_properties: [16,18],
     row: 2
   },
@@ -240,7 +240,7 @@ db.properties.insertMany(
     price: 220,
     houses: 0,
     owner: "0",
-    rent: [],
+    rent: [18,36,90,250,700,875,1050],
     other_properties: [23,24],
     row: 3
   },
@@ -262,7 +262,7 @@ db.properties.insertMany(
     price: 220,
     houses: 0,
     owner: "",
-    rent: [],
+    rent: [18,36,90,250,700,875,1050],
     other_properties: [21,24],
     row: 3
   },
@@ -273,7 +273,7 @@ db.properties.insertMany(
     price: 240,
     houses: 0,
     owner: "",
-    rent: [],
+    rent: [20,40,100,300,750,925,1100],
     other_properties: [21,23],
     row: 3
   },
@@ -284,7 +284,7 @@ db.properties.insertMany(
     price: 200,
     houses: 0,
     owner: "0",
-    rent: [50,100,150,200],
+    rent: [25,50,100,200],
     other_properties: [5,15,35],
     row: 3
   },
@@ -295,7 +295,7 @@ db.properties.insertMany(
     price: 260,
     houses: 0,
     owner: "",
-    rent: [],
+    rent: [22,44,110,330,800,975,1150],
     other_properties: [27,29],
     row: 3
   },
@@ -306,7 +306,7 @@ db.properties.insertMany(
     price: 260,
     houses: 0,
     owner: "",
-    rent: [],
+    rent: [22,44,110,330,800,975,1150],
     other_properties: [26,29],
     row: 3
   },
@@ -317,7 +317,7 @@ db.properties.insertMany(
     price: 150,
     houses: 0,
     owner: "",
-    rent: [],
+    rent: [4,10],
     other_properties: [12],
     row: 3
   },
@@ -328,7 +328,7 @@ db.properties.insertMany(
     price: 280,
     houses: 0,
     owner: "",
-    rent: [],
+    rent: [22,44,120,360,850,1025,1200],
     other_properties: [26,27],
     row: 3
   },
@@ -350,7 +350,7 @@ db.properties.insertMany(
     price: 300,
     houses: 0,
     owner: "",
-    rent: [],
+    rent: [26,52,130,390,900,1100,1275],
     other_properties: [32,34],
     row: 4
   },
@@ -361,7 +361,7 @@ db.properties.insertMany(
     price: 300,
     houses: 0,
     owner: "",
-    rent: [],
+    rent: [26,52,130,390,900,1100,1275],
     other_properties: [31,34],
     row: 4
   },
@@ -383,7 +383,7 @@ db.properties.insertMany(
     price: 320,
     houses: 0,
     owner: "",
-    rent: [],
+    rent: [28,56,150,450,1000,1200,1400],
     other_properties: [31,32],
     row: 4
   },
@@ -394,7 +394,7 @@ db.properties.insertMany(
     price: 200,
     houses: 0,
     owner: "1",
-    rent: [50,100,150,200],
+    rent: [25,50,100,200],
     other_properties: [5,15,25],
     row: 4
   },
@@ -416,7 +416,7 @@ db.properties.insertMany(
     price: 350,
     houses: 0,
     owner: "",
-    rent: [],
+    rent: [35,70,175,500,1100,1300,1500],
     other_properties: [39],
     row: 4
   },
@@ -438,7 +438,7 @@ db.properties.insertMany(
     price: 400,
     houses: 0,
     owner: "",
-    rent: [],
+    rent: [50,100,200,600,1400,1700,2000],
     other_properties: [37],
     row: 4
   }
