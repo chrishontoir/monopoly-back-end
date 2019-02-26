@@ -119,7 +119,7 @@ db.properties.insertMany(
     price: 0,
     rent_status: 0,
     owner: "Admin",
-    rent: [],
+    rent: [50],
     other_properties: [],
     row: 2
   },
