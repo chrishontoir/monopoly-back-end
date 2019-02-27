@@ -11,6 +11,7 @@ db.properties.insertMany(
     owner: "Admin",
     rent: [],
     other_properties: [],
+    mortgaged: false,
     row: 1
   },
   {
@@ -22,6 +23,7 @@ db.properties.insertMany(
     owner: "",
     rent: [2,4,10,30,90,160,250],
     other_properties: [3],
+    mortgaged: false,
     row: 1
   },
   {
@@ -33,6 +35,7 @@ db.properties.insertMany(
     owner: "Admin",
     rent: [],
     other_properties: [],
+    mortgaged: false,
     row: 1
   },
   {
@@ -44,6 +47,7 @@ db.properties.insertMany(
     owner: "",
     rent: [4,8,20,60,180,320,450],
     other_properties: [1],
+    mortgaged: false,
     row: 1
   },
   {
@@ -55,6 +59,7 @@ db.properties.insertMany(
     owner: "Government",
     rent: [200],
     other_properties: [],
+    mortgaged: false,
     row: 1
   },
   {
@@ -66,6 +71,7 @@ db.properties.insertMany(
     owner: "",
     rent: [25,50,100,200],
     other_properties: [15,25,35],
+    mortgaged: false,
     row: 1
   },
   {
@@ -77,6 +83,7 @@ db.properties.insertMany(
     owner: "",
     rent: [6,12,30,90,270,400,550],
     other_properties: [8,9],
+    mortgaged: false,
     row: 1
   },
   {
@@ -88,6 +95,7 @@ db.properties.insertMany(
     owner: "Admin",
     rent: [],
     other_properties: [],
+    mortgaged: false,
     row: 1
   },
   {
@@ -99,6 +107,7 @@ db.properties.insertMany(
     owner: "",
     rent: [6,12,30,90,270,400,550],
     other_properties: [6,9],
+    mortgaged: false,
     row: 1
   },
   {
@@ -110,6 +119,7 @@ db.properties.insertMany(
     owner: "",
     rent: [8,16,40,100,300,450,600],
     other_properties: [6,8],
+    mortgaged: false,
     row: 1
   },
   {
@@ -121,6 +131,7 @@ db.properties.insertMany(
     owner: "Admin",
     rent: [50],
     other_properties: [],
+    mortgaged: false,
     row: 2
   },
   {
@@ -132,6 +143,7 @@ db.properties.insertMany(
     owner: "",
     rent: [10,20,50,150,450,625,750],
     other_properties: [13,14],
+    mortgaged: false,
     row: 2
   },
   {
@@ -143,6 +155,7 @@ db.properties.insertMany(
     owner: "",
     rent: [4,10],
     other_properties: [28],
+    mortgaged: false,
     row: 2
   },
   {
@@ -154,6 +167,7 @@ db.properties.insertMany(
     owner: "",
     rent: [10,20,50,150,450,625,750],
     other_properties: [11,14],
+    mortgaged: false,
     row: 2
   },
   {
@@ -165,6 +179,7 @@ db.properties.insertMany(
     owner: "",
     rent: [12,24,60,180,500,700,900],
     other_properties: [11,13],
+    mortgaged: false,
     row: 2
   },
   {
@@ -176,6 +191,7 @@ db.properties.insertMany(
     owner: "",
     rent: [25,50,100,200],
     other_properties: [5,25,35],
+    mortgaged: false,
     row: 2
   },
   {
@@ -187,6 +203,7 @@ db.properties.insertMany(
     owner: "",
     rent: [14,28,70,200,550,750,950],
     other_properties: [18,19],
+    mortgaged: false,
     row: 2
   },
   {
@@ -198,6 +215,7 @@ db.properties.insertMany(
     owner: "Admin",
     rent: [],
     other_properties: [],
+    mortgaged: false,
     row: 2
   },
   {
@@ -209,6 +227,7 @@ db.properties.insertMany(
     owner: "",
     rent: [14,28,70,200,550,750,950],
     other_properties: [16,19],
+    mortgaged: false,
     row: 2
   },
   {
@@ -220,6 +239,7 @@ db.properties.insertMany(
     owner: "",
     rent: [16,32,80,220,600,800,1000],
     other_properties: [16,18],
+    mortgaged: false,
     row: 2
   },
   {
@@ -231,6 +251,7 @@ db.properties.insertMany(
     owner: "Admin",
     rent: [],
     other_properties: [],
+    mortgaged: false,
     row: 3
   },
   {
@@ -242,6 +263,7 @@ db.properties.insertMany(
     owner: "",
     rent: [18,36,90,250,700,875,1050],
     other_properties: [23,24],
+    mortgaged: false,
     row: 3
   },
   {
@@ -253,6 +275,7 @@ db.properties.insertMany(
     owner: "Admin",
     rent: [],
     other_properties: [],
+    mortgaged: false,
     row: 3
   },
   {
@@ -264,6 +287,7 @@ db.properties.insertMany(
     owner: "",
     rent: [18,36,90,250,700,875,1050],
     other_properties: [21,24],
+    mortgaged: false,
     row: 3
   },
   {
@@ -275,6 +299,7 @@ db.properties.insertMany(
     owner: "",
     rent: [20,40,100,300,750,925,1100],
     other_properties: [21,23],
+    mortgaged: false,
     row: 3
   },
   {
@@ -286,6 +311,7 @@ db.properties.insertMany(
     owner: "",
     rent: [25,50,100,200],
     other_properties: [5,15,35],
+    mortgaged: false,
     row: 3
   },
   {
@@ -297,6 +323,7 @@ db.properties.insertMany(
     owner: "",
     rent: [22,44,110,330,800,975,1150],
     other_properties: [27,29],
+    mortgaged: false,
     row: 3
   },
   {
@@ -308,6 +335,7 @@ db.properties.insertMany(
     owner: "",
     rent: [22,44,110,330,800,975,1150],
     other_properties: [26,29],
+    mortgaged: false,
     row: 3
   },
   {
@@ -319,6 +347,7 @@ db.properties.insertMany(
     owner: "",
     rent: [4,10],
     other_properties: [12],
+    mortgaged: false,
     row: 3
   },
   {
@@ -330,6 +359,7 @@ db.properties.insertMany(
     owner: "",
     rent: [22,44,120,360,850,1025,1200],
     other_properties: [26,27],
+    mortgaged: false,
     row: 3
   },
   {
@@ -341,6 +371,7 @@ db.properties.insertMany(
     owner: "Admin",
     rent: [],
     other_properties: [],
+    mortgaged: false,
     row: 4
   },
   {
@@ -352,6 +383,7 @@ db.properties.insertMany(
     owner: "",
     rent: [26,52,130,390,900,1100,1275],
     other_properties: [32,34],
+    mortgaged: false,
     row: 4
   },
   {
@@ -363,6 +395,7 @@ db.properties.insertMany(
     owner: "",
     rent: [26,52,130,390,900,1100,1275],
     other_properties: [31,34],
+    mortgaged: false,
     row: 4
   },
   {
@@ -374,6 +407,7 @@ db.properties.insertMany(
     owner: "Admin",
     rent: [],
     other_properties: [],
+    mortgaged: false,
     row: 4
   },
   {
@@ -385,6 +419,7 @@ db.properties.insertMany(
     owner: "",
     rent: [28,56,150,450,1000,1200,1400],
     other_properties: [31,32],
+    mortgaged: false,
     row: 4
   },
   {
@@ -396,6 +431,7 @@ db.properties.insertMany(
     owner: "",
     rent: [25,50,100,200],
     other_properties: [5,15,25],
+    mortgaged: false,
     row: 4
   },
   {
@@ -407,6 +443,7 @@ db.properties.insertMany(
     owner: "Admin",
     rent: [],
     other_properties: [],
+    mortgaged: false,
     row: 4
   },
   {
@@ -418,6 +455,7 @@ db.properties.insertMany(
     owner: "",
     rent: [35,70,175,500,1100,1300,1500],
     other_properties: [39],
+    mortgaged: false,
     row: 4
   },
   {
@@ -429,6 +467,7 @@ db.properties.insertMany(
     owner: "Government",
     rent: [100],
     other_properties: [],
+    mortgaged: false,
     row: 4
   },
   {
@@ -440,6 +479,7 @@ db.properties.insertMany(
     owner: "",
     rent: [50,100,200,600,1400,1700,2000],
     other_properties: [37],
+    mortgaged: false,
     row: 4
   }
 ])
